@@ -136,10 +136,15 @@ main_loop() {
         echo "==============================="
 
         # Parse for signals
-        if echo "$response" | grep -qE "^<exec>PROMPT</exec>$"; then
+        # Check for BLOCKED signal first
+        if echo "$response" | grep -q "^BLOCKED:"; then
+            local reason
+            reason=$(echo "$response" | sed 's/^BLOCKED: *//')
+            handle_blocked "$reason"
+        elif echo "$response" | grep -q "<exec>PROMPT</exec>"; then
             # Extract prompt and execute as task
             local prompt
-            prompt=$(echo "$response" | grep -oP '(?<=<exec>PROMPT</exec>).*' | head -1)
+            prompt=$(echo "$response" | grep -oP '(?<=<exec>PROMPT>).*?(?=</exec>)' | head -1)
             handle_exec_prompt "$prompt"
         elif echo "$response" | grep -q "^QUESTION:"; then
             # Handle question
