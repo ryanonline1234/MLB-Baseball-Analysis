@@ -1,0 +1,78 @@
+{
+  "pitcher_name": "Shohei Ohtani",
+  "savant_id": 660271,
+  "total_pitches": 1514,
+  "pitch_stats": {
+    "CU": {
+      "count": 185,
+      "avg_velocity": 77.2368,
+      "avg_spin_rate": 2657.7838,
+      "avg_extension": 6.5427,
+      "release_pos_x": -1.8649,
+      "release_pos_z": 6.1444,
+      "horizontal_break": 11.78,
+      "vertical_break": -14.28
+    },
+    "FC": {
+      "count": 72,
+      "avg_velocity": 93.7319,
+      "avg_spin_rate": 2543.9583,
+      "avg_extension": 6.5944,
+      "release_pos_x": -2.4144,
+      "release_pos_z": 5.5996,
+      "horizontal_break": 2.15,
+      "vertical_break": 7.73
+    },
+    "FF": {
+      "count": 600,
+      "avg_velocity": 98.1075,
+      "avg_spin_rate": 2482.0883,
+      "avg_extension": 6.6835,
+      "release_pos_x": -2.2595,
+      "release_pos_z": 5.6322,
+      "horizontal_break": -5.18,
+      "vertical_break": 14.55
+    },
+    "FS": {
+      "count": 119,
+      "avg_velocity": 88.5101,
+      "avg_spin_rate": 1460.3361,
+      "avg_extension": 6.7143,
+      "release_pos_x": -2.0975,
+      "release_pos_z": 5.7957,
+      "horizontal_break": -12.67,
+      "vertical_break": 2.65
+    },
+    "SI": {
+      "count": 98,
+      "avg_velocity": 95.9265,
+      "avg_spin_rate": 2150.1429,
+      "avg_extension": 6.7,
+      "release_pos_x": -2.1688,
+      "release_pos_z": 5.6067,
+      "horizontal_break": -14.45,
+      "vertical_break": 6.53
+    },
+    "SL": {
+      "count": 129,
+      "avg_velocity": 88.255,
+      "avg_spin_rate": 2568.4651,
+      "avg_extension": 6.5977,
+      "release_pos_x": -2.0925,
+      "release_pos_z": 6.0452,
+      "horizontal_break": 3.42,
+      "vertical_break": -0.41
+    },
+    "ST": {
+      "count": 308,
+      "avg_velocity": 84.8896,
+      "avg_spin_rate": 2623.8734,
+      "avg_extension": 6.5636,
+      "release_pos_x": -2.2889,
+      "release_pos_z": 5.6219,
+      "horizontal_break": 13.44,
+      "vertical_break": 3.66
+    }
+  },
+  "fetched_at": "2026-04-21T09:56:18.565763"
+}

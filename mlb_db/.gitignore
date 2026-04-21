@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw source videos — large files, potential copyright, store locally or on S3
+raw_video/
+
+# Keypoint arrays — large binary files, fully reproducible by re-running pipeline
+keypoints/
+
+# Model weights — auto-downloaded on first run
+*.task
+*.pt
+
+# Rendered visualisation videos — output artefacts
+*_skeleton.mp4
+
+# macOS
+.DS_Store

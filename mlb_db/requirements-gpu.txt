@@ -1,0 +1,25 @@
+# GPU dependencies — install on DGX Spark after requirements.txt
+#
+# ── PyTorch (CUDA 12.x — match your DGX driver) ───────────────────────────────
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# ── OpenMMLab stack ────────────────────────────────────────────────────────────
+#   pip install -U openmim
+#   mim install mmengine
+#   mim install "mmcv>=2.0.0"
+#   mim install "mmdet>=3.0.0"
+#   mim install "mmpose>=1.0.0"
+#
+# The mim installer pulls the right pre-built wheel for your CUDA version.
+# After install, MMPose will auto-download ViTPose-B weights on first run (~380 MB).
+#
+# Verify GPU is visible:
+#   python -c "import torch; print(torch.cuda.get_device_name(0))"
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Listed here for reference; use `mim install` commands above instead of pip directly.
+# torch>=2.1.0        # installed via pytorch.org wheel
+# mmengine>=0.9.0
+# mmcv>=2.0.0
+# mmdet>=3.0.0
+# mmpose>=1.3.0

@@ -1,0 +1,78 @@
+{
+  "pitcher_name": "Paul Skenes",
+  "savant_id": 694973,
+  "total_pitches": 3733,
+  "pitch_stats": {
+    "CH": {
+      "count": 417,
+      "avg_velocity": 88.8012,
+      "avg_spin_rate": 1829.7842,
+      "avg_extension": 6.6305,
+      "release_pos_x": -2.6579,
+      "release_pos_z": 5.5487,
+      "horizontal_break": -16.7,
+      "vertical_break": 5.57
+    },
+    "CU": {
+      "count": 166,
+      "avg_velocity": 83.6036,
+      "avg_spin_rate": 2438.741,
+      "avg_extension": 6.588,
+      "release_pos_x": -2.7115,
+      "release_pos_z": 5.6074,
+      "horizontal_break": 6.67,
+      "vertical_break": -3.14
+    },
+    "FF": {
+      "count": 1419,
+      "avg_velocity": 98.0574,
+      "avg_spin_rate": 2259.2551,
+      "avg_extension": 6.7109,
+      "release_pos_x": -2.4584,
+      "release_pos_z": 5.5967,
+      "horizontal_break": -13.85,
+      "vertical_break": 11.81
+    },
+    "FS": {
+      "count": 487,
+      "avg_velocity": 93.7741,
+      "avg_spin_rate": 1701.2649,
+      "avg_extension": 6.5928,
+      "release_pos_x": -2.4746,
+      "release_pos_z": 5.5685,
+      "horizontal_break": -13.31,
+      "vertical_break": 0.25
+    },
+    "SI": {
+      "count": 388,
+      "avg_velocity": 97.4534,
+      "avg_spin_rate": 2270.0464,
+      "avg_extension": 6.6886,
+      "release_pos_x": -2.3601,
+      "release_pos_z": 5.5955,
+      "horizontal_break": -17.68,
+      "vertical_break": 6.61
+    },
+    "SL": {
+      "count": 182,
+      "avg_velocity": 85.2143,
+      "avg_spin_rate": 2326.1758,
+      "avg_extension": 6.6236,
+      "release_pos_x": -2.4353,
+      "release_pos_z": 5.504,
+      "horizontal_break": 3.39,
+      "vertical_break": 7.66
+    },
+    "ST": {
+      "count": 555,
+      "avg_velocity": 84.3822,
+      "avg_spin_rate": 2347.3171,
+      "avg_extension": 6.6294,
+      "release_pos_x": -2.4224,
+      "release_pos_z": 5.5177,
+      "horizontal_break": 11.52,
+      "vertical_break": 5.67
+    }
+  },
+  "fetched_at": "2026-04-16T18:24:09.623400"
+}

@@ -1,0 +1,58 @@
+{
+  "pitcher_name": "Jacob deGrom",
+  "savant_id": 594798,
+  "total_pitches": 3159,
+  "pitch_stats": {
+    "CH": {
+      "count": 369,
+      "avg_velocity": 89.7875,
+      "avg_spin_rate": 1660.6287,
+      "avg_extension": 6.7767,
+      "release_pos_x": -1.2933,
+      "release_pos_z": 5.4919,
+      "horizontal_break": -13.88,
+      "vertical_break": 2.06
+    },
+    "CU": {
+      "count": 162,
+      "avg_velocity": 80.9994,
+      "avg_spin_rate": 2773.0432,
+      "avg_extension": 6.6068,
+      "release_pos_x": -1.3405,
+      "release_pos_z": 5.6486,
+      "horizontal_break": 10.35,
+      "vertical_break": -5.05
+    },
+    "FF": {
+      "count": 1443,
+      "avg_velocity": 97.3674,
+      "avg_spin_rate": 2509.7353,
+      "avg_extension": 6.7097,
+      "release_pos_x": -1.4009,
+      "release_pos_z": 5.4772,
+      "horizontal_break": -8.83,
+      "vertical_break": 16.58
+    },
+    "SI": {
+      "count": 11,
+      "avg_velocity": 96.4636,
+      "avg_spin_rate": 2283.3636,
+      "avg_extension": 6.5727,
+      "release_pos_x": -1.4873,
+      "release_pos_z": 5.6191,
+      "horizontal_break": -14.57,
+      "vertical_break": 11.13
+    },
+    "SL": {
+      "count": 1168,
+      "avg_velocity": 90.4408,
+      "avg_spin_rate": 2685.7997,
+      "avg_extension": 6.6748,
+      "release_pos_x": -1.4278,
+      "release_pos_z": 5.5385,
+      "horizontal_break": 4.77,
+      "vertical_break": 2.59
+    }
+  },
+  "fetched_at": "2026-04-21T10:13:39.566443"
+}

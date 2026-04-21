@@ -1,0 +1,45 @@
+pitchers:
+  # handedness: throwing hand (R = RHP, L = LHP)
+  # angle: camera angle convention
+  #   - RHP: 3B side = pitcher's glove side, shows full arm action
+  #   - LHP: 1B side = pitcher's glove side, shows full arm action
+  # videos: manually curated list; file paths relative to raw_video/
+  #   pitch_type: Savant pitch code (FF, SI, FS, SL, ST, CU, CH, FC, KC)
+  #   notes: optional free-text context
+
+  - name: "Shohei Ohtani"
+    savant_id: 660271
+    handedness: L
+    angle: side
+    videos:
+      - file: "shohei_ohtani/Shohei-Slow-2021-3rdSide.mp4"
+        pitch_type: FF
+        angle: 3B
+        notes: "2021 4-seam fastball, 3B-side slow motion"
+
+  - name: "Jacob deGrom"
+    savant_id: 594798
+    handedness: R
+    angle: side
+    videos:
+      - file: "jacob_degrom/Jacob-deGrom-Slow-Motion-Pitching-3rd-2020.mp4"
+        pitch_type: FF
+        angle: 3B
+        notes: "2020 4-seam fastball, 3B side slow motion"
+
+  - name: "Logan Webb"
+    savant_id: 657277
+    handedness: R
+    angle: side
+    videos:
+      - file: "logan_webb/LoganWebb-3rd-2023.mp4"
+        pitch_type: SI
+        angle: 3B
+        start_sec: 30
+        notes: "2023 sinker, 3B side — first half real-speed, slow-mo starts ~30s"
+
+  - name: "Paul Skenes"
+    savant_id: 694973
+    handedness: R
+    angle: side
+    videos: []   # processed from raw_video/paul_skenes/ dir scan

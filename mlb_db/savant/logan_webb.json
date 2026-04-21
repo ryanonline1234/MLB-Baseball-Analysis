@@ -1,0 +1,58 @@
+{
+  "pitcher_name": "Logan Webb",
+  "savant_id": 657277,
+  "total_pitches": 4199,
+  "pitch_stats": {
+    "CH": {
+      "count": 954,
+      "avg_velocity": 86.3693,
+      "avg_spin_rate": 1495.811,
+      "avg_extension": 6.8298,
+      "release_pos_x": -2.0134,
+      "release_pos_z": 4.8621,
+      "horizontal_break": -8.64,
+      "vertical_break": -5.57
+    },
+    "FC": {
+      "count": 323,
+      "avg_velocity": 90.9981,
+      "avg_spin_rate": 2226.094,
+      "avg_extension": 6.7725,
+      "release_pos_x": -1.9268,
+      "release_pos_z": 5.0698,
+      "horizontal_break": -1.79,
+      "vertical_break": 7.69
+    },
+    "FF": {
+      "count": 315,
+      "avg_velocity": 92.7108,
+      "avg_spin_rate": 2102.5429,
+      "avg_extension": 6.8245,
+      "release_pos_x": -1.795,
+      "release_pos_z": 5.0704,
+      "horizontal_break": -9.06,
+      "vertical_break": 10.5
+    },
+    "SI": {
+      "count": 1352,
+      "avg_velocity": 92.4895,
+      "avg_spin_rate": 1954.2165,
+      "avg_extension": 6.8303,
+      "release_pos_x": -1.8963,
+      "release_pos_z": 5.0697,
+      "horizontal_break": -15.79,
+      "vertical_break": 0.61
+    },
+    "ST": {
+      "count": 1028,
+      "avg_velocity": 84.5517,
+      "avg_spin_rate": 2544.5906,
+      "avg_extension": 6.6958,
+      "release_pos_x": -2.0805,
+      "release_pos_z": 4.9265,
+      "horizontal_break": 14.52,
+      "vertical_break": -0.45
+    }
+  },
+  "fetched_at": "2026-04-21T10:22:39.143509"
+}

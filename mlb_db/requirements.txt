@@ -1,0 +1,29 @@
+# MLB Pitcher Reference Database — Python dependencies
+#
+# ── Quick install (local dev / CPU) ───────────────────────────────────────────
+#   brew install ffmpeg          # macOS
+#   sudo apt install ffmpeg      # Ubuntu
+#   pip install -r requirements.txt
+#
+# ── DGX / GPU install (adds MMPose) ───────────────────────────────────────────
+#   pip install -r requirements.txt
+#   pip install -r requirements-gpu.txt
+#
+# Python 3.9–3.11 recommended. mediapipe has limited Python 3.12+ support.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Frame extraction
+opencv-python>=4.8.0
+
+# Pose estimation — CPU fallback (always installed)
+mediapipe>=0.10.0
+
+# Baseball stats
+pybaseball>=2.2.5
+
+# Numerics / resampling
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Config parsing
+PyYAML>=6.0
