@@ -1,0 +1,45 @@
+{
+  "anchor_100_dist": 3.9997220958296023,
+  "anchor_100_source": "kershaw_split_half",
+  "anchor_0_dist": 8.185616687762957,
+  "anchor_0_source": "empirical_max_provisional",
+  "anchor_0_pair": [
+    "Shohei Ohtani",
+    "Logan Webb"
+  ],
+  "components": {
+    "arm_action": {
+      "anchor_100_dist": 2.4583161127017954,
+      "anchor_0_dist": 3.818974210345556,
+      "anchor_0_pair": [
+        "Shohei Ohtani",
+        "Gerrit Cole"
+      ]
+    },
+    "lower_body": {
+      "anchor_100_dist": 0.7660168879926637,
+      "anchor_0_dist": 2.485618440671401,
+      "anchor_0_pair": [
+        "Gerrit Cole",
+        "Tyler Glasnow"
+      ]
+    },
+    "rotation_timing": {
+      "anchor_100_dist": 1.1557877788093947,
+      "anchor_0_dist": 2.9337499202714743,
+      "anchor_0_pair": [
+        "Shohei Ohtani",
+        "Gerrit Cole"
+      ]
+    },
+    "posture": {
+      "anchor_100_dist": 1.0887076484835387,
+      "anchor_0_dist": 2.0885254914338165,
+      "anchor_0_pair": [
+        "Shohei Ohtani",
+        "Jordan Hicks"
+      ]
+    }
+  },
+  "computed_at": "2026-04-23T22:17:09"
+}

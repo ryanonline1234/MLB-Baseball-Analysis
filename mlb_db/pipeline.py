@@ -86,8 +86,11 @@ def load_pitchers_config() -> List[Dict]:
 
 # ─── Step 2: Baseball Savant ──────────────────────────────────────────────────
 
-def fetch_savant_stats(pitcher_name: str, savant_id: int) -> Dict:
+def fetch_savant_stats(pitcher_name: str, savant_id) -> Dict:
     """Pull pitch metrics from Baseball Savant via pybaseball and cache as JSON."""
+    if savant_id is None:
+        logger.info(f"[Savant] Skipping {pitcher_name} — no savant_id")
+        return {}
     logger.info(f"[Savant] Fetching stats for {pitcher_name} (id={savant_id})")
     try:
         import pybaseball
@@ -321,7 +324,8 @@ def _run_mmpose(
                       p["bbox"][0][2], p["bbox"][0][3]] for p in preds],
                     dtype=np.float32,
                 )
-                best_idx = _select_subject(boxes_np, prev_cx, prev_cy)
+                best_idx = _select_subject(boxes_np, prev_cx, prev_cy,
+                                           frame_w=w, frame_h=h)
                 inst     = preds[best_idx]
                 bx       = boxes_np[best_idx]
                 prev_cx  = float((bx[0] + bx[2]) / 2 / w)
@@ -360,7 +364,13 @@ def _run_mmpose(
 # YOLOv8 outputs COCO-17 keypoints; we map the same 12 body indices
 _YOLO_BODY_INDICES = _COCO_INDICES   # [5..16]
 
-def _select_subject(boxes_xyxy: np.ndarray, prev_cx: float, prev_cy: float) -> int:
+def _select_subject(
+    boxes_xyxy: np.ndarray,
+    prev_cx: float,
+    prev_cy: float,
+    frame_w: int = 1,
+    frame_h: int = 1,
+) -> int:
     """
     Pick the correct person from multi-detection frames.
 
@@ -373,6 +383,10 @@ def _select_subject(boxes_xyxy: np.ndarray, prev_cx: float, prev_cy: float) -> i
     boxes_xyxy : (N, 4) pixel coords  [x1, y1, x2, y2]
     prev_cx/cy : normalised [0,1] centre from last accepted frame
                  (-1 if no previous frame yet → use area only)
+    frame_w/h  : actual frame pixel dimensions (must be passed for correct
+                 normalisation — the old boxes_xyxy[:, 2].max() estimate
+                 misfires when the pitcher strides to the far left and their
+                 bbox right-edge becomes much smaller than the real frame width)
     Returns the chosen index into boxes_xyxy.
     """
     if len(boxes_xyxy) == 1:
@@ -387,15 +401,14 @@ def _select_subject(boxes_xyxy: np.ndarray, prev_cx: float, prev_cy: float) -> i
         return best_area
 
     # Frame-normalised centre of the largest-area box
-    frame_w = boxes_xyxy[:, 2].max()   # rough frame width estimate
-    jump_x  = abs(cx[best_area] / frame_w - prev_cx)
+    jump_x = abs(cx[best_area] / frame_w - prev_cx)
 
     if jump_x < 0.30:        # reasonable movement — accept the largest box
         return best_area
 
     # Large jump detected (follow-through clipping to background person).
     # Fall back to whoever is closest to the previous centre.
-    dists = np.hypot(cx / frame_w - prev_cx, cy / frame_w - prev_cy)
+    dists = np.hypot(cx / frame_w - prev_cx, cy / frame_h - prev_cy)
     logger.debug(
         f"[YOLO] Subject jump {jump_x:.2f} > 0.30 — "
         f"using nearest-to-prev (dist={dists.min():.3f})"
@@ -459,7 +472,8 @@ def _run_yolo(
 
             if kps_all is not None and len(kps_all) > 0 and boxes is not None:
                 boxes_np = boxes.xyxy.cpu().numpy()          # (N, 4)
-                best_idx = _select_subject(boxes_np, prev_cx, prev_cy)
+                best_idx = _select_subject(boxes_np, prev_cx, prev_cy,
+                                           frame_w=w, frame_h=h)
 
                 xy   = kps_all.xy.cpu().numpy()[best_idx]    # (17, 2) pixels
                 conf = kps_all.conf.cpu().numpy()[best_idx]  # (17,)
@@ -720,15 +734,23 @@ def _resample_sequence(seq: np.ndarray, target_len: int) -> np.ndarray:
     return out.reshape(target_len, seq.shape[1], seq.shape[2])
 
 
-def aggregate_pitcher_profile(pitcher_name: str, savant_id: int) -> Optional[Dict]:
+def aggregate_pitcher_profile(
+    pitcher_name: str,
+    savant_id,
+    handedness: str = "R",
+) -> Optional[Dict]:
     """
     Aggregate all keypoint sequences for a pitcher:
       - Resample each to the median sequence length
-      - Compute mean + std across videos
+      - Compute mean + std across videos (raw keypoints)
+      - Compute biomechanical features per video, resample, mean + std
       - Merge with Savant stats
       - Write profiles/<pitcher>.json
     """
     logger.info(f"[Profile] Aggregating {pitcher_name}")
+
+    # Local import to avoid a circular-ish dependency at module load.
+    from features import FEATURE_NAMES, N_FEATURES, compute_features
 
     kp_dir    = KEYPOINTS_DIR / _safe_name(pitcher_name)
     npy_files = sorted(kp_dir.glob("*_keypoints.npy")) if kp_dir.exists() else []
@@ -744,10 +766,14 @@ def aggregate_pitcher_profile(pitcher_name: str, savant_id: int) -> Optional[Dic
         except Exception as e:
             logger.warning(f"[Profile] Could not load {f.name}: {e}")
 
-    kp_profile: Dict = {}
+    kp_profile:  Dict = {}
+    feat_profile: Dict = {}
+
     if sequences:
         lengths    = [s.shape[0] for s in sequences]
         target_len = int(np.median(lengths))
+
+        # ─ Keypoint profile (raw, for visualization + legacy DTW mode) ─
         resampled  = [_resample_sequence(s, target_len) for s in sequences]
         stacked    = np.stack(resampled, axis=0)          # (N, T, 12, 3)
 
@@ -762,7 +788,47 @@ def aggregate_pitcher_profile(pitcher_name: str, savant_id: int) -> Optional[Dic
             "mean_keypoints":  mean_seq.tolist(),
             "std_keypoints":   std_seq.tolist(),
         }
-        logger.info(f"[Profile] {len(sequences)} sequences → target_len={target_len}")
+
+        # ─ Feature profile: compute per video, resample, stack, mean/std ─
+        try:
+            feat_seqs = [compute_features(s, handedness) for s in sequences]
+            # Resample each (T_i, F) → (target_len, F)
+            resampled_feats = []
+            for fs in feat_seqs:
+                if fs.shape[0] == target_len:
+                    resampled_feats.append(fs)
+                else:
+                    x_old = np.linspace(0, 1, fs.shape[0])
+                    x_new = np.linspace(0, 1, target_len)
+                    out = np.zeros((target_len, fs.shape[1]), dtype=np.float32)
+                    for j in range(fs.shape[1]):
+                        col = fs[:, j]
+                        # Mask NaN before interpolation
+                        valid = np.isfinite(col)
+                        if valid.sum() < 2:
+                            out[:, j] = np.nan
+                        else:
+                            out[:, j] = np.interp(x_new, x_old[valid], col[valid])
+                    resampled_feats.append(out)
+
+            stacked_feats = np.stack(resampled_feats, axis=0)  # (N, T, F)
+            mean_feats = np.nanmean(stacked_feats, axis=0)
+            std_feats  = np.nanstd(stacked_feats,  axis=0)
+
+            feat_profile = {
+                "num_videos":      len(feat_seqs),
+                "sequence_length": target_len,
+                "feature_names":   FEATURE_NAMES,
+                "handedness":      handedness,
+                "mean_features":   _nan_safe_list(mean_feats),
+                "std_features":    _nan_safe_list(std_feats),
+            }
+            logger.info(
+                f"[Profile] {len(sequences)} sequences → T={target_len}, "
+                f"F={N_FEATURES} biomech features"
+            )
+        except Exception as e:
+            logger.warning(f"[Profile] Feature computation failed: {e}")
     else:
         logger.warning(f"[Profile] No keypoint files for {pitcher_name}")
 
@@ -779,8 +845,10 @@ def aggregate_pitcher_profile(pitcher_name: str, savant_id: int) -> Optional[Dic
     profile = {
         "pitcher_name":     pitcher_name,
         "savant_id":        savant_id,
+        "handedness":       handedness,
         "created_at":       datetime.now().isoformat(),
         "keypoint_profile": kp_profile,
+        "feature_profile":  feat_profile,
         "savant_stats":     savant_stats,
     }
 
@@ -788,3 +856,16 @@ def aggregate_pitcher_profile(pitcher_name: str, savant_id: int) -> Optional[Dic
     out_path.write_text(json.dumps(profile, indent=2))
     logger.info(f"[Profile] Saved → {out_path.name}")
     return profile
+
+
+def _nan_safe_list(arr: np.ndarray) -> List:
+    """Convert a float array with NaN to nested lists, replacing NaN with None
+    so JSON round-trips without `NaN` tokens (which are not valid JSON)."""
+    if arr.dtype.kind not in "fc":
+        return arr.tolist()
+    out = arr.tolist()
+    def replace(x):
+        if isinstance(x, list):
+            return [replace(v) for v in x]
+        return None if isinstance(x, float) and (x != x) else x  # NaN != NaN
+    return replace(out)

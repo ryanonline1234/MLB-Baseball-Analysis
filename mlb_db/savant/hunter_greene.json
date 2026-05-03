@@ -1,0 +1,48 @@
+{
+  "pitcher_name": "Hunter Greene",
+  "savant_id": 668881,
+  "total_pitches": 2192,
+  "pitch_stats": {
+    "CU": {
+      "count": 4,
+      "avg_velocity": 84.475,
+      "avg_spin_rate": 2424.75,
+      "avg_extension": 6.3,
+      "release_pos_x": -2.3025,
+      "release_pos_z": 5.8025,
+      "horizontal_break": 9.42,
+      "vertical_break": -0.36
+    },
+    "FF": {
+      "count": 1157,
+      "avg_velocity": 99.4434,
+      "avg_spin_rate": 2432.5376,
+      "avg_extension": 6.6143,
+      "release_pos_x": -1.8735,
+      "release_pos_z": 6.0469,
+      "horizontal_break": -9.01,
+      "vertical_break": 16.92
+    },
+    "FS": {
+      "count": 230,
+      "avg_velocity": 88.3243,
+      "avg_spin_rate": 1297.5304,
+      "avg_extension": 6.7035,
+      "release_pos_x": -1.6823,
+      "release_pos_z": 5.927,
+      "horizontal_break": -10.38,
+      "vertical_break": 5.2
+    },
+    "SL": {
+      "count": 751,
+      "avg_velocity": 89.4759,
+      "avg_spin_rate": 2422.4434,
+      "avg_extension": 6.4739,
+      "release_pos_x": -2.0984,
+      "release_pos_z": 5.8852,
+      "horizontal_break": 5.61,
+      "vertical_break": 3.64
+    }
+  },
+  "fetched_at": "2026-04-23T22:07:23.101217"
+}

@@ -1,0 +1,58 @@
+{
+  "pitcher_name": "Tyler Glasnow",
+  "savant_id": 607192,
+  "total_pitches": 2632,
+  "pitch_stats": {
+    "CU": {
+      "count": 503,
+      "avg_velocity": 82.2008,
+      "avg_spin_rate": 2822.3468,
+      "avg_extension": 7.2974,
+      "release_pos_x": -1.4831,
+      "release_pos_z": 6.1112,
+      "horizontal_break": 5.09,
+      "vertical_break": -15.81
+    },
+    "FF": {
+      "count": 922,
+      "avg_velocity": 95.7579,
+      "avg_spin_rate": 2525.6425,
+      "avg_extension": 7.5795,
+      "release_pos_x": -1.5246,
+      "release_pos_z": 6.0154,
+      "horizontal_break": -0.97,
+      "vertical_break": 16.27
+    },
+    "KC": {
+      "count": 159,
+      "avg_velocity": 80.6195,
+      "avg_spin_rate": 2806.434,
+      "avg_extension": 7.2164,
+      "release_pos_x": -1.2635,
+      "release_pos_z": 6.2592,
+      "horizontal_break": 6.8,
+      "vertical_break": -15.57
+    },
+    "SI": {
+      "count": 497,
+      "avg_velocity": 96.1189,
+      "avg_spin_rate": 2496.5616,
+      "avg_extension": 7.6238,
+      "release_pos_x": -1.5757,
+      "release_pos_z": 5.9334,
+      "horizontal_break": -10.65,
+      "vertical_break": 14.05
+    },
+    "SL": {
+      "count": 547,
+      "avg_velocity": 89.5146,
+      "avg_spin_rate": 2651.0202,
+      "avg_extension": 7.4431,
+      "release_pos_x": -1.7605,
+      "release_pos_z": 5.9337,
+      "horizontal_break": 3.2,
+      "vertical_break": 0.22
+    }
+  },
+  "fetched_at": "2026-04-22T20:44:15.846350"
+}

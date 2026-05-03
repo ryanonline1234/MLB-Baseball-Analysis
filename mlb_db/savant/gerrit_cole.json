@@ -1,0 +1,68 @@
+{
+  "pitcher_name": "Gerrit Cole",
+  "savant_id": 543037,
+  "total_pitches": 136,
+  "pitch_stats": {
+    "CH": {
+      "count": 17,
+      "avg_velocity": 86.8824,
+      "avg_spin_rate": 1770.2941,
+      "avg_extension": 6.3529,
+      "release_pos_x": -1.9812,
+      "release_pos_z": 5.9388,
+      "horizontal_break": -16.19,
+      "vertical_break": 9.66
+    },
+    "FC": {
+      "count": 3,
+      "avg_velocity": 90.1667,
+      "avg_spin_rate": 2490.6667,
+      "avg_extension": 6.1333,
+      "release_pos_x": -2.0633,
+      "release_pos_z": 6.09,
+      "horizontal_break": 5.04,
+      "vertical_break": 8.84
+    },
+    "FF": {
+      "count": 63,
+      "avg_velocity": 95.5937,
+      "avg_spin_rate": 2360.6984,
+      "avg_extension": 6.1952,
+      "release_pos_x": -2.0868,
+      "release_pos_z": 6.0237,
+      "horizontal_break": -8.97,
+      "vertical_break": 17.87
+    },
+    "KC": {
+      "count": 22,
+      "avg_velocity": 80.8182,
+      "avg_spin_rate": 2743.9545,
+      "avg_extension": 6.0636,
+      "release_pos_x": -2.07,
+      "release_pos_z": 6.0864,
+      "horizontal_break": 9.11,
+      "vertical_break": -15.22
+    },
+    "SI": {
+      "count": 20,
+      "avg_velocity": 94.235,
+      "avg_spin_rate": 2255.35,
+      "avg_extension": 6.22,
+      "release_pos_x": -1.951,
+      "release_pos_z": 6.006,
+      "horizontal_break": -13.64,
+      "vertical_break": 15.11
+    },
+    "SL": {
+      "count": 11,
+      "avg_velocity": 87.9636,
+      "avg_spin_rate": 2522.3636,
+      "avg_extension": 6.0364,
+      "release_pos_x": -2.3182,
+      "release_pos_z": 5.9918,
+      "horizontal_break": 5.61,
+      "vertical_break": 2.25
+    }
+  },
+  "fetched_at": "2026-04-23T20:34:08.326013"
+}

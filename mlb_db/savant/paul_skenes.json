@@ -1,17 +1,17 @@
 {
   "pitcher_name": "Paul Skenes",
   "savant_id": 694973,
-  "total_pitches": 3733,
+  "total_pitches": 3797,
   "pitch_stats": {
     "CH": {
-      "count": 417,
-      "avg_velocity": 88.8012,
-      "avg_spin_rate": 1829.7842,
-      "avg_extension": 6.6305,
-      "release_pos_x": -2.6579,
-      "release_pos_z": 5.5487,
-      "horizontal_break": -16.7,
-      "vertical_break": 5.57
+      "count": 427,
+      "avg_velocity": 88.8124,
+      "avg_spin_rate": 1830.5504,
+      "avg_extension": 6.6304,
+      "release_pos_x": -2.6585,
+      "release_pos_z": 5.547,
+      "horizontal_break": -16.63,
+      "vertical_break": 5.59
     },
     "CU": {
       "count": 166,
@@ -24,55 +24,55 @@
       "vertical_break": -3.14
     },
     "FF": {
-      "count": 1419,
-      "avg_velocity": 98.0574,
-      "avg_spin_rate": 2259.2551,
-      "avg_extension": 6.7109,
-      "release_pos_x": -2.4584,
-      "release_pos_z": 5.5967,
-      "horizontal_break": -13.85,
-      "vertical_break": 11.81
+      "count": 1439,
+      "avg_velocity": 98.0477,
+      "avg_spin_rate": 2259.4955,
+      "avg_extension": 6.7111,
+      "release_pos_x": -2.4595,
+      "release_pos_z": 5.5962,
+      "horizontal_break": -13.8,
+      "vertical_break": 11.82
     },
     "FS": {
       "count": 487,
-      "avg_velocity": 93.7741,
-      "avg_spin_rate": 1701.2649,
-      "avg_extension": 6.5928,
-      "release_pos_x": -2.4746,
-      "release_pos_z": 5.5685,
-      "horizontal_break": -13.31,
-      "vertical_break": 0.25
+      "avg_velocity": 93.7441,
+      "avg_spin_rate": 1689.8234,
+      "avg_extension": 6.5957,
+      "release_pos_x": -2.4726,
+      "release_pos_z": 5.5675,
+      "horizontal_break": -13.23,
+      "vertical_break": 0.13
     },
     "SI": {
-      "count": 388,
-      "avg_velocity": 97.4534,
-      "avg_spin_rate": 2270.0464,
-      "avg_extension": 6.6886,
-      "release_pos_x": -2.3601,
-      "release_pos_z": 5.5955,
-      "horizontal_break": -17.68,
-      "vertical_break": 6.61
+      "count": 409,
+      "avg_velocity": 97.3841,
+      "avg_spin_rate": 2265.445,
+      "avg_extension": 6.6853,
+      "release_pos_x": -2.3753,
+      "release_pos_z": 5.5941,
+      "horizontal_break": -17.52,
+      "vertical_break": 6.63
     },
     "SL": {
-      "count": 182,
-      "avg_velocity": 85.2143,
-      "avg_spin_rate": 2326.1758,
-      "avg_extension": 6.6236,
-      "release_pos_x": -2.4353,
-      "release_pos_z": 5.504,
-      "horizontal_break": 3.39,
-      "vertical_break": 7.66
+      "count": 172,
+      "avg_velocity": 85.2581,
+      "avg_spin_rate": 2316.7791,
+      "avg_extension": 6.6157,
+      "release_pos_x": -2.4163,
+      "release_pos_z": 5.5038,
+      "horizontal_break": 3.28,
+      "vertical_break": 7.6
     },
     "ST": {
-      "count": 555,
-      "avg_velocity": 84.3822,
-      "avg_spin_rate": 2347.3171,
-      "avg_extension": 6.6294,
-      "release_pos_x": -2.4224,
-      "release_pos_z": 5.5177,
-      "horizontal_break": 11.52,
+      "count": 578,
+      "avg_velocity": 84.3747,
+      "avg_spin_rate": 2351.3806,
+      "avg_extension": 6.6322,
+      "release_pos_x": -2.4361,
+      "release_pos_z": 5.5169,
+      "horizontal_break": 11.43,
       "vertical_break": 5.67
     }
   },
-  "fetched_at": "2026-04-16T18:24:09.623400"
+  "fetched_at": "2026-04-22T20:41:47.319672"
 }

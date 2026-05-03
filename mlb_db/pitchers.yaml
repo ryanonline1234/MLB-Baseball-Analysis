@@ -15,7 +15,8 @@ pitchers:
       - file: "shohei_ohtani/Shohei-Slow-2021-3rdSide.mp4"
         pitch_type: FF
         angle: 3B
-        notes: "2021 4-seam fastball, 3B-side slow motion"
+        start_sec: 20
+        notes: "2021 4-seam fastball, 3B-side slow motion; ~20s pre-delivery setup before the pitch"
 
   - name: "Jacob deGrom"
     savant_id: 594798
@@ -42,4 +43,86 @@ pitchers:
     savant_id: 694973
     handedness: R
     angle: side
-    videos: []   # processed from raw_video/paul_skenes/ dir scan
+    videos:
+      - file: "paul_skenes/Paul-Skenes-3rd-2023.mp4"
+        pitch_type: FF
+        angle: 3B
+        start_sec: 22
+        notes: "2023, 3B-side slow motion; ~22s of pre-delivery idle before the pitch starts"
+
+  - name: "Gerrit Cole"
+    savant_id: 543037
+    handedness: R
+    angle: side
+    videos:
+      - file: "gerrit_cole/Gerrit-Cole-3rd-2022.mp4"
+        pitch_type: FF
+        angle: 3B
+        start_sec: 21
+        end_sec: 32
+        notes: "2022 4-seam fastball, 3B-side slow motion 0:21–0:32; 1st base coach re-enters as dominant detection at t≈37.7s; clipped at 32s to keep peak at ~36% of sequence"
+
+  - name: "Chris Sale"
+    savant_id: 519242
+    handedness: L
+    angle: side
+    videos:
+      - file: "chris_sale/Chris-Sale-1st-2022.mp4"
+        pitch_type: FF
+        angle: 1B
+        start_sec: 14
+        notes: "2022, 1B-side (LHP glove side); real-speed first, slow-mo from ~14s"
+
+  - name: "Clayton Kershaw"
+    savant_id: 477132
+    handedness: L
+    angle: side
+    videos:
+      - file: "clayton_kershaw/Clayton-Kershaw-1st-2022.mp4"
+        pitch_type: FF
+        angle: 1B
+        start_sec: 24
+        notes: "2022, 1B-side (LHP glove side); real-speed first, slow-mo from ~24s"
+
+  - name: "Tyler Glasnow"
+    savant_id: 607192
+    handedness: R
+    angle: side
+    videos:
+      - file: "tyler_glasnow/Tyler-Glasnow-3rd.mp4"
+        pitch_type: FF
+        angle: 3B
+        start_sec: 4
+        notes: "3B-side slow motion; ~4s setup before delivery phase — leaves 71 frames"
+
+  - name: "Hunter Greene"
+    savant_id: 668881
+    handedness: R
+    angle: side
+    videos:
+      - file: "hunter_greene/Hunter-Greene-3rd-2023.mp4"
+        pitch_type: FF
+        angle: 3B
+        start_sec: 17
+        notes: "2023, 3B-side slow motion; clip has 3 reps — start_sec=17 isolates final full rep (inter-rep neutral at ~10+7s)"
+
+  - name: "Jordan Hicks"
+    savant_id: 663876
+    handedness: R
+    angle: side
+    videos:
+      - file: "jordan_hicks/Jordan-Hicks-3rd-2023.mp4"
+        pitch_type: FF
+        angle: 3B
+        start_sec: 15
+        notes: "2023, 3B-side slow motion; first rep starts knee-up at 8s — start_sec=15 catches second full rep from standing (delivery peak ~t=22s)"
+
+  - name: "Amateur Youth"
+    savant_id:
+    handedness: R
+    angle: side
+    videos:
+      - file: "amateur_youth/10-year-old-3rd-Righty.mp4"
+        pitch_type: FF
+        angle: 3B
+        notes: "~10-year-old RHP, 3B-side — non-MLB baseline for floor validation"

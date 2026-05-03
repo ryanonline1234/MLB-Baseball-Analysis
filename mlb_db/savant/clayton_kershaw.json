@@ -1,0 +1,88 @@
+{
+  "pitcher_name": "Clayton Kershaw",
+  "savant_id": 477132,
+  "total_pitches": 1829,
+  "pitch_stats": {
+    "CS": {
+      "count": 1,
+      "avg_velocity": 58.6,
+      "avg_spin_rate": 2221.0,
+      "avg_extension": 6.1,
+      "release_pos_x": 1.35,
+      "release_pos_z": 6.89,
+      "horizontal_break": -9.12,
+      "vertical_break": -19.8
+    },
+    "CU": {
+      "count": 323,
+      "avg_velocity": 72.3492,
+      "avg_spin_rate": 2241.9055,
+      "avg_extension": 6.4786,
+      "release_pos_x": 1.3646,
+      "release_pos_z": 6.2425,
+      "horizontal_break": -3.91,
+      "vertical_break": -14.36
+    },
+    "EP": {
+      "count": 1,
+      "avg_velocity": 46.3,
+      "avg_spin_rate": 1339.0,
+      "avg_extension": 5.6,
+      "release_pos_x": 2.16,
+      "release_pos_z": 6.77,
+      "horizontal_break": -2.52,
+      "vertical_break": 4.92
+    },
+    "FF": {
+      "count": 631,
+      "avg_velocity": 89.0303,
+      "avg_spin_rate": 2309.533,
+      "avg_extension": 6.5913,
+      "release_pos_x": 1.6981,
+      "release_pos_z": 5.9887,
+      "horizontal_break": -0.01,
+      "vertical_break": 17.54
+    },
+    "FS": {
+      "count": 99,
+      "avg_velocity": 83.1414,
+      "avg_spin_rate": 1552.5895,
+      "avg_extension": 6.6192,
+      "release_pos_x": 1.7173,
+      "release_pos_z": 6.0497,
+      "horizontal_break": 9.04,
+      "vertical_break": 12.75
+    },
+    "SI": {
+      "count": 9,
+      "avg_velocity": 89.3889,
+      "avg_spin_rate": 2341.5556,
+      "avg_extension": 6.5778,
+      "release_pos_x": 2.7011,
+      "release_pos_z": 5.4556,
+      "horizontal_break": 8.65,
+      "vertical_break": 16.27
+    },
+    "SL": {
+      "count": 761,
+      "avg_velocity": 85.7598,
+      "avg_spin_rate": 2484.9294,
+      "avg_extension": 6.5476,
+      "release_pos_x": 1.7155,
+      "release_pos_z": 6.0374,
+      "horizontal_break": -4.44,
+      "vertical_break": 8.0
+    },
+    "UN": {
+      "count": 1,
+      "avg_velocity": 58.3,
+      "avg_spin_rate": 1495.0,
+      "avg_extension": 5.8,
+      "release_pos_x": 1.71,
+      "release_pos_z": 6.67,
+      "horizontal_break": -8.76,
+      "vertical_break": 9.36
+    }
+  },
+  "fetched_at": "2026-04-22T13:57:48.195790"
+}

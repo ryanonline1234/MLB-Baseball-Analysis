@@ -1,0 +1,3481 @@
+{
+  "mode": "features",
+  "pitchers": [
+    "Shohei Ohtani",
+    "Jacob deGrom",
+    "Logan Webb",
+    "Paul Skenes",
+    "Gerrit Cole",
+    "Chris Sale",
+    "Clayton Kershaw",
+    "Tyler Glasnow",
+    "Hunter Greene",
+    "Jordan Hicks",
+    "Amateur Youth"
+  ],
+  "handedness": {
+    "Shohei Ohtani": "L",
+    "Jacob deGrom": "R",
+    "Logan Webb": "R",
+    "Paul Skenes": "R",
+    "Gerrit Cole": "R",
+    "Chris Sale": "L",
+    "Clayton Kershaw": "L",
+    "Tyler Glasnow": "R",
+    "Hunter Greene": "R",
+    "Jordan Hicks": "R",
+    "Amateur Youth": "R"
+  },
+  "sequence_length": {
+    "Shohei Ohtani": 358,
+    "Jacob deGrom": 711,
+    "Logan Webb": 893,
+    "Paul Skenes": 205,
+    "Gerrit Cole": 330,
+    "Chris Sale": 987,
+    "Clayton Kershaw": 1769,
+    "Tyler Glasnow": 71,
+    "Hunter Greene": 390,
+    "Jordan Hicks": 417,
+    "Amateur Youth": 798
+  },
+  "distance_matrix": [
+    [
+      0.0,
+      5.028909,
+      8.185617,
+      5.633718,
+      6.510782,
+      7.610078,
+      6.138963,
+      5.435817,
+      5.229773,
+      5.726985,
+      4.988556
+    ],
+    [
+      5.028909,
+      0.0,
+      4.008299,
+      3.146965,
+      4.445785,
+      3.888122,
+      3.555621,
+      5.533012,
+      3.035177,
+      3.335073,
+      4.905977
+    ],
+    [
+      8.185617,
+      4.008299,
+      0.0,
+      3.016797,
+      4.6098,
+      4.211203,
+      3.919934,
+      5.492718,
+      2.822868,
+      2.921417,
+      4.235588
+    ],
+    [
+      5.633718,
+      3.146965,
+      3.016797,
+      0.0,
+      5.106525,
+      3.560402,
+      3.645279,
+      5.66645,
+      3.698072,
+      3.609712,
+      4.022064
+    ],
+    [
+      6.510782,
+      4.445785,
+      4.6098,
+      5.106525,
+      0.0,
+      4.683198,
+      4.779028,
+      5.751534,
+      4.872774,
+      5.556196,
+      4.865526
+    ],
+    [
+      7.610078,
+      3.888122,
+      4.211203,
+      3.560402,
+      4.683198,
+      0.0,
+      4.097386,
+      5.370079,
+      3.450762,
+      3.577196,
+      4.15177
+    ],
+    [
+      6.138963,
+      3.555621,
+      3.919934,
+      3.645279,
+      4.779028,
+      4.097386,
+      0.0,
+      5.482934,
+      3.453521,
+      3.989011,
+      3.693089
+    ],
+    [
+      5.435817,
+      5.533012,
+      5.492718,
+      5.66645,
+      5.751534,
+      5.370079,
+      5.482934,
+      0.0,
+      4.524927,
+      5.263128,
+      5.481986
+    ],
+    [
+      5.229773,
+      3.035177,
+      2.822868,
+      3.698072,
+      4.872774,
+      3.450762,
+      3.453521,
+      4.524927,
+      0.0,
+      3.700504,
+      3.484139
+    ],
+    [
+      5.726985,
+      3.335073,
+      2.921417,
+      3.609712,
+      5.556196,
+      3.577196,
+      3.989011,
+      5.263128,
+      3.700504,
+      0.0,
+      4.105919
+    ],
+    [
+      4.988556,
+      4.905977,
+      4.235588,
+      4.022064,
+      4.865526,
+      4.15177,
+      3.693089,
+      5.481986,
+      3.484139,
+      4.105919,
+      0.0
+    ]
+  ],
+  "rankings": {
+    "Shohei Ohtani": [
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 5.028909,
+        "similarity_pct": 83.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.232367,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.34526,
+            "similarity_pct": 66.3
+          },
+          "rotation_timing": {
+            "distance": 1.579115,
+            "similarity_pct": 76.2
+          },
+          "posture": {
+            "distance": 1.371678,
+            "similarity_pct": 71.7
+          }
+        }
+      },
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 6.138963,
+        "similarity_pct": 83.7,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.808551,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.458772,
+            "similarity_pct": 59.7
+          },
+          "rotation_timing": {
+            "distance": 1.099453,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 1.596238,
+            "similarity_pct": 49.2
+          }
+        }
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 8.185617,
+        "similarity_pct": 73.9,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.669696,
+            "similarity_pct": 84.5
+          },
+          "lower_body": {
+            "distance": 1.241295,
+            "similarity_pct": 72.4
+          },
+          "rotation_timing": {
+            "distance": 1.602102,
+            "similarity_pct": 74.9
+          },
+          "posture": {
+            "distance": 1.64342,
+            "similarity_pct": 44.5
+          }
+        }
+      },
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 5.229773,
+        "similarity_pct": 73.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.525778,
+            "similarity_pct": 95.0
+          },
+          "lower_body": {
+            "distance": 1.289605,
+            "similarity_pct": 69.6
+          },
+          "rotation_timing": {
+            "distance": 1.710192,
+            "similarity_pct": 68.8
+          },
+          "posture": {
+            "distance": 1.879594,
+            "similarity_pct": 20.9
+          }
+        }
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 5.633718,
+        "similarity_pct": 71.4,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.890559,
+            "similarity_pct": 68.2
+          },
+          "lower_body": {
+            "distance": 1.362333,
+            "similarity_pct": 65.3
+          },
+          "rotation_timing": {
+            "distance": 1.615265,
+            "similarity_pct": 74.2
+          },
+          "posture": {
+            "distance": 1.234389,
+            "similarity_pct": 85.4
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 5.435817,
+        "similarity_pct": 63.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.007946,
+            "similarity_pct": 59.6
+          },
+          "lower_body": {
+            "distance": 1.603319,
+            "similarity_pct": 51.3
+          },
+          "rotation_timing": {
+            "distance": 1.39591,
+            "similarity_pct": 86.5
+          },
+          "posture": {
+            "distance": 1.49763,
+            "similarity_pct": 59.1
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 7.610078,
+        "similarity_pct": 62.5,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.154961,
+            "similarity_pct": 48.8
+          },
+          "lower_body": {
+            "distance": 1.343159,
+            "similarity_pct": 66.4
+          },
+          "rotation_timing": {
+            "distance": 0.887678,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 1.61944,
+            "similarity_pct": 46.9
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 4.988556,
+        "similarity_pct": 60.9,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.190246,
+            "similarity_pct": 46.2
+          },
+          "lower_body": {
+            "distance": 1.254878,
+            "similarity_pct": 71.6
+          },
+          "rotation_timing": {
+            "distance": 1.274315,
+            "similarity_pct": 93.3
+          },
+          "posture": {
+            "distance": 1.633046,
+            "similarity_pct": 45.6
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 5.726985,
+        "similarity_pct": 50.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.184203,
+            "similarity_pct": 46.7
+          },
+          "lower_body": {
+            "distance": 1.311212,
+            "similarity_pct": 68.3
+          },
+          "rotation_timing": {
+            "distance": 1.513685,
+            "similarity_pct": 79.9
+          },
+          "posture": {
+            "distance": 2.088526,
+            "similarity_pct": 0.0
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 6.510782,
+        "similarity_pct": 8.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.818975,
+            "similarity_pct": 0.0
+          },
+          "lower_body": {
+            "distance": 2.394176,
+            "similarity_pct": 5.3
+          },
+          "rotation_timing": {
+            "distance": 2.933749,
+            "similarity_pct": 0.0
+          },
+          "posture": {
+            "distance": 1.627737,
+            "similarity_pct": 46.1
+          }
+        }
+      }
+    ],
+    "Jacob deGrom": [
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 3.146965,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.61788,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.682586,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.846563,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.56799,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 3.555621,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.371713,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.746352,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.745303,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.606336,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 3.335073,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.763838,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.726685,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.956845,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.999905,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 3.035177,
+        "similarity_pct": 99.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.773141,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.847502,
+            "similarity_pct": 95.3
+          },
+          "rotation_timing": {
+            "distance": 0.918812,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.808377,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 4.008299,
+        "similarity_pct": 96.7,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.510428,
+            "similarity_pct": 96.2
+          },
+          "lower_body": {
+            "distance": 0.899422,
+            "similarity_pct": 92.2
+          },
+          "rotation_timing": {
+            "distance": 1.075101,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.988832,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 3.888122,
+        "similarity_pct": 92.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.498866,
+            "similarity_pct": 97.0
+          },
+          "lower_body": {
+            "distance": 1.241853,
+            "similarity_pct": 72.3
+          },
+          "rotation_timing": {
+            "distance": 0.905444,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 1.021386,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 5.028909,
+        "similarity_pct": 83.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.232367,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.34526,
+            "similarity_pct": 66.3
+          },
+          "rotation_timing": {
+            "distance": 1.579115,
+            "similarity_pct": 76.2
+          },
+          "posture": {
+            "distance": 1.371678,
+            "similarity_pct": 71.7
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 4.445785,
+        "similarity_pct": 76.5,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.765168,
+            "similarity_pct": 77.4
+          },
+          "lower_body": {
+            "distance": 1.278898,
+            "similarity_pct": 70.2
+          },
+          "rotation_timing": {
+            "distance": 1.617411,
+            "similarity_pct": 74.0
+          },
+          "posture": {
+            "distance": 1.22769,
+            "similarity_pct": 86.1
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 5.533012,
+        "similarity_pct": 73.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.566486,
+            "similarity_pct": 92.1
+          },
+          "lower_body": {
+            "distance": 1.813025,
+            "similarity_pct": 39.1
+          },
+          "rotation_timing": {
+            "distance": 1.631726,
+            "similarity_pct": 73.2
+          },
+          "posture": {
+            "distance": 1.377402,
+            "similarity_pct": 71.1
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 4.905977,
+        "similarity_pct": 71.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.906121,
+            "similarity_pct": 67.1
+          },
+          "lower_body": {
+            "distance": 1.529615,
+            "similarity_pct": 55.6
+          },
+          "rotation_timing": {
+            "distance": 1.158188,
+            "similarity_pct": 99.9
+          },
+          "posture": {
+            "distance": 1.429187,
+            "similarity_pct": 65.9
+          }
+        }
+      }
+    ],
+    "Logan Webb": [
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 3.016797,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.756472,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.636181,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.817984,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.62455,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 2.822868,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.748572,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.590279,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.644514,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.616897,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 2.921417,
+        "similarity_pct": 99.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.636477,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.831627,
+            "similarity_pct": 96.2
+          },
+          "rotation_timing": {
+            "distance": 0.726881,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.712123,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 4.008299,
+        "similarity_pct": 96.7,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.510428,
+            "similarity_pct": 96.2
+          },
+          "lower_body": {
+            "distance": 0.899422,
+            "similarity_pct": 92.2
+          },
+          "rotation_timing": {
+            "distance": 1.075101,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.988832,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 4.235588,
+        "similarity_pct": 93.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.64293,
+            "similarity_pct": 86.4
+          },
+          "lower_body": {
+            "distance": 0.837702,
+            "similarity_pct": 95.8
+          },
+          "rotation_timing": {
+            "distance": 0.845029,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.947497,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 3.919934,
+        "similarity_pct": 91.7,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.715496,
+            "similarity_pct": 81.1
+          },
+          "lower_body": {
+            "distance": 0.69184,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.822742,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.872708,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 4.211203,
+        "similarity_pct": 84.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.785557,
+            "similarity_pct": 75.9
+          },
+          "lower_body": {
+            "distance": 1.143314,
+            "similarity_pct": 78.1
+          },
+          "rotation_timing": {
+            "distance": 1.147651,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.96558,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 8.185617,
+        "similarity_pct": 73.9,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.669696,
+            "similarity_pct": 84.5
+          },
+          "lower_body": {
+            "distance": 1.241295,
+            "similarity_pct": 72.4
+          },
+          "rotation_timing": {
+            "distance": 1.602102,
+            "similarity_pct": 74.9
+          },
+          "posture": {
+            "distance": 1.64342,
+            "similarity_pct": 44.5
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 4.6098,
+        "similarity_pct": 69.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.985043,
+            "similarity_pct": 61.3
+          },
+          "lower_body": {
+            "distance": 1.446236,
+            "similarity_pct": 60.4
+          },
+          "rotation_timing": {
+            "distance": 1.453805,
+            "similarity_pct": 83.2
+          },
+          "posture": {
+            "distance": 1.230379,
+            "similarity_pct": 85.8
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 5.492718,
+        "similarity_pct": 62.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.943007,
+            "similarity_pct": 64.4
+          },
+          "lower_body": {
+            "distance": 1.82154,
+            "similarity_pct": 38.6
+          },
+          "rotation_timing": {
+            "distance": 1.630677,
+            "similarity_pct": 73.3
+          },
+          "posture": {
+            "distance": 1.297936,
+            "similarity_pct": 79.1
+          }
+        }
+      }
+    ],
+    "Paul Skenes": [
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 3.146965,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.61788,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.682586,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.846563,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.56799,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 3.016797,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.756472,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.636181,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.817984,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.62455,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 3.698072,
+        "similarity_pct": 99.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.229176,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.81909,
+            "similarity_pct": 96.9
+          },
+          "rotation_timing": {
+            "distance": 1.134891,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.717781,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 3.645279,
+        "similarity_pct": 99.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.372095,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.828256,
+            "similarity_pct": 96.4
+          },
+          "rotation_timing": {
+            "distance": 0.939418,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.650347,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 3.609712,
+        "similarity_pct": 97.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.999672,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.001192,
+            "similarity_pct": 86.3
+          },
+          "rotation_timing": {
+            "distance": 0.88998,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.770966,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 3.560402,
+        "similarity_pct": 96.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.080204,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.064049,
+            "similarity_pct": 82.7
+          },
+          "rotation_timing": {
+            "distance": 0.872982,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.814137,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 4.022064,
+        "similarity_pct": 93.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.54054,
+            "similarity_pct": 94.0
+          },
+          "lower_body": {
+            "distance": 1.11156,
+            "similarity_pct": 79.9
+          },
+          "rotation_timing": {
+            "distance": 1.005627,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.935347,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 5.106525,
+        "similarity_pct": 74.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.881927,
+            "similarity_pct": 68.9
+          },
+          "lower_body": {
+            "distance": 1.29364,
+            "similarity_pct": 69.3
+          },
+          "rotation_timing": {
+            "distance": 1.376075,
+            "similarity_pct": 87.6
+          },
+          "posture": {
+            "distance": 1.308891,
+            "similarity_pct": 78.0
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 5.633718,
+        "similarity_pct": 71.4,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.890559,
+            "similarity_pct": 68.2
+          },
+          "lower_body": {
+            "distance": 1.362333,
+            "similarity_pct": 65.3
+          },
+          "rotation_timing": {
+            "distance": 1.615265,
+            "similarity_pct": 74.2
+          },
+          "posture": {
+            "distance": 1.234389,
+            "similarity_pct": 85.4
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 5.66645,
+        "similarity_pct": 48.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.228236,
+            "similarity_pct": 43.4
+          },
+          "lower_body": {
+            "distance": 1.907234,
+            "similarity_pct": 33.6
+          },
+          "rotation_timing": {
+            "distance": 1.738325,
+            "similarity_pct": 67.2
+          },
+          "posture": {
+            "distance": 1.506943,
+            "similarity_pct": 58.2
+          }
+        }
+      }
+    ],
+    "Gerrit Cole": [
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 4.445785,
+        "similarity_pct": 76.5,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.765168,
+            "similarity_pct": 77.4
+          },
+          "lower_body": {
+            "distance": 1.278898,
+            "similarity_pct": 70.2
+          },
+          "rotation_timing": {
+            "distance": 1.617411,
+            "similarity_pct": 74.0
+          },
+          "posture": {
+            "distance": 1.22769,
+            "similarity_pct": 86.1
+          }
+        }
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 5.106525,
+        "similarity_pct": 74.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.881927,
+            "similarity_pct": 68.9
+          },
+          "lower_body": {
+            "distance": 1.29364,
+            "similarity_pct": 69.3
+          },
+          "rotation_timing": {
+            "distance": 1.376075,
+            "similarity_pct": 87.6
+          },
+          "posture": {
+            "distance": 1.308891,
+            "similarity_pct": 78.0
+          }
+        }
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 4.6098,
+        "similarity_pct": 69.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.985043,
+            "similarity_pct": 61.3
+          },
+          "lower_body": {
+            "distance": 1.446236,
+            "similarity_pct": 60.4
+          },
+          "rotation_timing": {
+            "distance": 1.453805,
+            "similarity_pct": 83.2
+          },
+          "posture": {
+            "distance": 1.230379,
+            "similarity_pct": 85.8
+          }
+        }
+      },
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 4.779028,
+        "similarity_pct": 67.9,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.259734,
+            "similarity_pct": 41.1
+          },
+          "lower_body": {
+            "distance": 1.174773,
+            "similarity_pct": 76.2
+          },
+          "rotation_timing": {
+            "distance": 1.27178,
+            "similarity_pct": 93.5
+          },
+          "posture": {
+            "distance": 1.09011,
+            "similarity_pct": 99.9
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 4.683198,
+        "similarity_pct": 66.4,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.922046,
+            "similarity_pct": 65.9
+          },
+          "lower_body": {
+            "distance": 1.586498,
+            "similarity_pct": 52.3
+          },
+          "rotation_timing": {
+            "distance": 1.478293,
+            "similarity_pct": 81.9
+          },
+          "posture": {
+            "distance": 1.411,
+            "similarity_pct": 67.8
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 4.865526,
+        "similarity_pct": 57.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.213355,
+            "similarity_pct": 44.5
+          },
+          "lower_body": {
+            "distance": 1.599343,
+            "similarity_pct": 51.5
+          },
+          "rotation_timing": {
+            "distance": 1.465507,
+            "similarity_pct": 82.6
+          },
+          "posture": {
+            "distance": 1.361252,
+            "similarity_pct": 72.7
+          }
+        }
+      },
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 4.872774,
+        "similarity_pct": 56.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.059899,
+            "similarity_pct": 55.8
+          },
+          "lower_body": {
+            "distance": 1.840722,
+            "similarity_pct": 37.5
+          },
+          "rotation_timing": {
+            "distance": 1.779149,
+            "similarity_pct": 64.9
+          },
+          "posture": {
+            "distance": 1.358644,
+            "similarity_pct": 73.0
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 5.751534,
+        "similarity_pct": 55.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.942368,
+            "similarity_pct": 64.4
+          },
+          "lower_body": {
+            "distance": 2.485618,
+            "similarity_pct": 0.0
+          },
+          "rotation_timing": {
+            "distance": 1.462034,
+            "similarity_pct": 82.8
+          },
+          "posture": {
+            "distance": 1.396884,
+            "similarity_pct": 69.2
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 5.556196,
+        "similarity_pct": 36.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.358139,
+            "similarity_pct": 33.9
+          },
+          "lower_body": {
+            "distance": 2.304161,
+            "similarity_pct": 10.6
+          },
+          "rotation_timing": {
+            "distance": 1.857826,
+            "similarity_pct": 60.5
+          },
+          "posture": {
+            "distance": 1.627766,
+            "similarity_pct": 46.1
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 6.510782,
+        "similarity_pct": 8.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.818975,
+            "similarity_pct": 0.0
+          },
+          "lower_body": {
+            "distance": 2.394176,
+            "similarity_pct": 5.3
+          },
+          "rotation_timing": {
+            "distance": 2.933749,
+            "similarity_pct": 0.0
+          },
+          "posture": {
+            "distance": 1.627737,
+            "similarity_pct": 46.1
+          }
+        }
+      }
+    ],
+    "Chris Sale": [
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 3.450762,
+        "similarity_pct": 97.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.228884,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.979109,
+            "similarity_pct": 87.6
+          },
+          "rotation_timing": {
+            "distance": 0.907431,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.836092,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 3.560402,
+        "similarity_pct": 96.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.080204,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.064049,
+            "similarity_pct": 82.7
+          },
+          "rotation_timing": {
+            "distance": 0.872982,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.814137,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 3.577196,
+        "similarity_pct": 95.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.184016,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.143904,
+            "similarity_pct": 78.0
+          },
+          "rotation_timing": {
+            "distance": 0.947205,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.934735,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 3.888122,
+        "similarity_pct": 92.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.498866,
+            "similarity_pct": 97.0
+          },
+          "lower_body": {
+            "distance": 1.241853,
+            "similarity_pct": 72.3
+          },
+          "rotation_timing": {
+            "distance": 0.905444,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 1.021386,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 4.211203,
+        "similarity_pct": 84.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.785557,
+            "similarity_pct": 75.9
+          },
+          "lower_body": {
+            "distance": 1.143314,
+            "similarity_pct": 78.1
+          },
+          "rotation_timing": {
+            "distance": 1.147651,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.96558,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 4.15177,
+        "similarity_pct": 84.4,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.903459,
+            "similarity_pct": 67.3
+          },
+          "lower_body": {
+            "distance": 0.870357,
+            "similarity_pct": 93.9
+          },
+          "rotation_timing": {
+            "distance": 0.898995,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.798468,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 4.097386,
+        "similarity_pct": 83.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.619495,
+            "similarity_pct": 88.2
+          },
+          "lower_body": {
+            "distance": 1.707162,
+            "similarity_pct": 45.3
+          },
+          "rotation_timing": {
+            "distance": 1.124935,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.653085,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 4.683198,
+        "similarity_pct": 66.4,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.922046,
+            "similarity_pct": 65.9
+          },
+          "lower_body": {
+            "distance": 1.586498,
+            "similarity_pct": 52.3
+          },
+          "rotation_timing": {
+            "distance": 1.478293,
+            "similarity_pct": 81.9
+          },
+          "posture": {
+            "distance": 1.411,
+            "similarity_pct": 67.8
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 7.610078,
+        "similarity_pct": 62.5,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.154961,
+            "similarity_pct": 48.8
+          },
+          "lower_body": {
+            "distance": 1.343159,
+            "similarity_pct": 66.4
+          },
+          "rotation_timing": {
+            "distance": 0.887678,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 1.61944,
+            "similarity_pct": 46.9
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 5.370079,
+        "similarity_pct": 61.5,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.955055,
+            "similarity_pct": 63.5
+          },
+          "lower_body": {
+            "distance": 1.936855,
+            "similarity_pct": 31.9
+          },
+          "rotation_timing": {
+            "distance": 1.428535,
+            "similarity_pct": 84.7
+          },
+          "posture": {
+            "distance": 1.416662,
+            "similarity_pct": 67.2
+          }
+        }
+      }
+    ],
+    "Clayton Kershaw": [
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 3.555621,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.371713,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.746352,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.745303,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.606336,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 3.645279,
+        "similarity_pct": 99.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.372095,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.828256,
+            "similarity_pct": 96.4
+          },
+          "rotation_timing": {
+            "distance": 0.939418,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.650347,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 3.693089,
+        "similarity_pct": 99.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.482824,
+            "similarity_pct": 98.2
+          },
+          "lower_body": {
+            "distance": 0.696022,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.64535,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.707856,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 3.453521,
+        "similarity_pct": 97.4,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.485324,
+            "similarity_pct": 98.0
+          },
+          "lower_body": {
+            "distance": 0.904494,
+            "similarity_pct": 91.9
+          },
+          "rotation_timing": {
+            "distance": 0.79623,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.682001,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 3.989011,
+        "similarity_pct": 95.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.527406,
+            "similarity_pct": 94.9
+          },
+          "lower_body": {
+            "distance": 0.92288,
+            "similarity_pct": 90.9
+          },
+          "rotation_timing": {
+            "distance": 1.042921,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.877172,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 3.919934,
+        "similarity_pct": 91.7,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.715496,
+            "similarity_pct": 81.1
+          },
+          "lower_body": {
+            "distance": 0.69184,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.822742,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.872708,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 6.138963,
+        "similarity_pct": 83.7,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.808551,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.458772,
+            "similarity_pct": 59.7
+          },
+          "rotation_timing": {
+            "distance": 1.099453,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 1.596238,
+            "similarity_pct": 49.2
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 4.097386,
+        "similarity_pct": 83.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.619495,
+            "similarity_pct": 88.2
+          },
+          "lower_body": {
+            "distance": 1.707162,
+            "similarity_pct": 45.3
+          },
+          "rotation_timing": {
+            "distance": 1.124935,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.653085,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 4.779028,
+        "similarity_pct": 67.9,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.259734,
+            "similarity_pct": 41.1
+          },
+          "lower_body": {
+            "distance": 1.174773,
+            "similarity_pct": 76.2
+          },
+          "rotation_timing": {
+            "distance": 1.27178,
+            "similarity_pct": 93.5
+          },
+          "posture": {
+            "distance": 1.09011,
+            "similarity_pct": 99.9
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 5.482934,
+        "similarity_pct": 49.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.426527,
+            "similarity_pct": 28.8
+          },
+          "lower_body": {
+            "distance": 1.731659,
+            "similarity_pct": 43.8
+          },
+          "rotation_timing": {
+            "distance": 1.541447,
+            "similarity_pct": 78.3
+          },
+          "posture": {
+            "distance": 1.329596,
+            "similarity_pct": 75.9
+          }
+        }
+      }
+    ],
+    "Tyler Glasnow": [
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 4.524927,
+        "similarity_pct": 83.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.395291,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.668407,
+            "similarity_pct": 47.5
+          },
+          "rotation_timing": {
+            "distance": 1.658719,
+            "similarity_pct": 71.7
+          },
+          "posture": {
+            "distance": 0.981331,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 5.533012,
+        "similarity_pct": 73.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.566486,
+            "similarity_pct": 92.1
+          },
+          "lower_body": {
+            "distance": 1.813025,
+            "similarity_pct": 39.1
+          },
+          "rotation_timing": {
+            "distance": 1.631726,
+            "similarity_pct": 73.2
+          },
+          "posture": {
+            "distance": 1.377402,
+            "similarity_pct": 71.1
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 5.263128,
+        "similarity_pct": 70.9,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.904869,
+            "similarity_pct": 67.2
+          },
+          "lower_body": {
+            "distance": 1.634553,
+            "similarity_pct": 49.5
+          },
+          "rotation_timing": {
+            "distance": 1.352161,
+            "similarity_pct": 89.0
+          },
+          "posture": {
+            "distance": 1.206575,
+            "similarity_pct": 88.2
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 5.481986,
+        "similarity_pct": 63.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.881955,
+            "similarity_pct": 68.9
+          },
+          "lower_body": {
+            "distance": 1.873132,
+            "similarity_pct": 35.6
+          },
+          "rotation_timing": {
+            "distance": 1.66914,
+            "similarity_pct": 71.1
+          },
+          "posture": {
+            "distance": 1.325829,
+            "similarity_pct": 76.3
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 5.435817,
+        "similarity_pct": 63.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.007946,
+            "similarity_pct": 59.6
+          },
+          "lower_body": {
+            "distance": 1.603319,
+            "similarity_pct": 51.3
+          },
+          "rotation_timing": {
+            "distance": 1.39591,
+            "similarity_pct": 86.5
+          },
+          "posture": {
+            "distance": 1.49763,
+            "similarity_pct": 59.1
+          }
+        }
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 5.492718,
+        "similarity_pct": 62.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.943007,
+            "similarity_pct": 64.4
+          },
+          "lower_body": {
+            "distance": 1.82154,
+            "similarity_pct": 38.6
+          },
+          "rotation_timing": {
+            "distance": 1.630677,
+            "similarity_pct": 73.3
+          },
+          "posture": {
+            "distance": 1.297936,
+            "similarity_pct": 79.1
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 5.370079,
+        "similarity_pct": 61.5,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.955055,
+            "similarity_pct": 63.5
+          },
+          "lower_body": {
+            "distance": 1.936855,
+            "similarity_pct": 31.9
+          },
+          "rotation_timing": {
+            "distance": 1.428535,
+            "similarity_pct": 84.7
+          },
+          "posture": {
+            "distance": 1.416662,
+            "similarity_pct": 67.2
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 5.751534,
+        "similarity_pct": 55.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.942368,
+            "similarity_pct": 64.4
+          },
+          "lower_body": {
+            "distance": 2.485618,
+            "similarity_pct": 0.0
+          },
+          "rotation_timing": {
+            "distance": 1.462034,
+            "similarity_pct": 82.8
+          },
+          "posture": {
+            "distance": 1.396884,
+            "similarity_pct": 69.2
+          }
+        }
+      },
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 5.482934,
+        "similarity_pct": 49.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.426527,
+            "similarity_pct": 28.8
+          },
+          "lower_body": {
+            "distance": 1.731659,
+            "similarity_pct": 43.8
+          },
+          "rotation_timing": {
+            "distance": 1.541447,
+            "similarity_pct": 78.3
+          },
+          "posture": {
+            "distance": 1.329596,
+            "similarity_pct": 75.9
+          }
+        }
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 5.66645,
+        "similarity_pct": 48.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.228236,
+            "similarity_pct": 43.4
+          },
+          "lower_body": {
+            "distance": 1.907234,
+            "similarity_pct": 33.6
+          },
+          "rotation_timing": {
+            "distance": 1.738325,
+            "similarity_pct": 67.2
+          },
+          "posture": {
+            "distance": 1.506943,
+            "similarity_pct": 58.2
+          }
+        }
+      }
+    ],
+    "Hunter Greene": [
+      {
+        "pitcher": "Logan Webb",
+        "distance": 2.822868,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.748572,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.590279,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.644514,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.616897,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 3.698072,
+        "similarity_pct": 99.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.229176,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.81909,
+            "similarity_pct": 96.9
+          },
+          "rotation_timing": {
+            "distance": 1.134891,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.717781,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 3.035177,
+        "similarity_pct": 99.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.773141,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.847502,
+            "similarity_pct": 95.3
+          },
+          "rotation_timing": {
+            "distance": 0.918812,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.808377,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 3.453521,
+        "similarity_pct": 97.4,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.485324,
+            "similarity_pct": 98.0
+          },
+          "lower_body": {
+            "distance": 0.904494,
+            "similarity_pct": 91.9
+          },
+          "rotation_timing": {
+            "distance": 0.79623,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.682001,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 3.450762,
+        "similarity_pct": 97.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.228884,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.979109,
+            "similarity_pct": 87.6
+          },
+          "rotation_timing": {
+            "distance": 0.907431,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.836092,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 3.700504,
+        "similarity_pct": 97.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.180826,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.985448,
+            "similarity_pct": 87.2
+          },
+          "rotation_timing": {
+            "distance": 0.825183,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.950087,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 3.484139,
+        "similarity_pct": 96.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.229067,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.067366,
+            "similarity_pct": 82.5
+          },
+          "rotation_timing": {
+            "distance": 0.781066,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.864674,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 4.524927,
+        "similarity_pct": 83.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.395291,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.668407,
+            "similarity_pct": 47.5
+          },
+          "rotation_timing": {
+            "distance": 1.658719,
+            "similarity_pct": 71.7
+          },
+          "posture": {
+            "distance": 0.981331,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 5.229773,
+        "similarity_pct": 73.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.525778,
+            "similarity_pct": 95.0
+          },
+          "lower_body": {
+            "distance": 1.289605,
+            "similarity_pct": 69.6
+          },
+          "rotation_timing": {
+            "distance": 1.710192,
+            "similarity_pct": 68.8
+          },
+          "posture": {
+            "distance": 1.879594,
+            "similarity_pct": 20.9
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 4.872774,
+        "similarity_pct": 56.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.059899,
+            "similarity_pct": 55.8
+          },
+          "lower_body": {
+            "distance": 1.840722,
+            "similarity_pct": 37.5
+          },
+          "rotation_timing": {
+            "distance": 1.779149,
+            "similarity_pct": 64.9
+          },
+          "posture": {
+            "distance": 1.358644,
+            "similarity_pct": 73.0
+          }
+        }
+      }
+    ],
+    "Jordan Hicks": [
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 3.335073,
+        "similarity_pct": 100.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.763838,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.726685,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.956845,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.999905,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 2.921417,
+        "similarity_pct": 99.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.636477,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.831627,
+            "similarity_pct": 96.2
+          },
+          "rotation_timing": {
+            "distance": 0.726881,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.712123,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 3.700504,
+        "similarity_pct": 97.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.180826,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 0.985448,
+            "similarity_pct": 87.2
+          },
+          "rotation_timing": {
+            "distance": 0.825183,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.950087,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 3.609712,
+        "similarity_pct": 97.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 1.999672,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.001192,
+            "similarity_pct": 86.3
+          },
+          "rotation_timing": {
+            "distance": 0.88998,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.770966,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 3.989011,
+        "similarity_pct": 95.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.527406,
+            "similarity_pct": 94.9
+          },
+          "lower_body": {
+            "distance": 0.92288,
+            "similarity_pct": 90.9
+          },
+          "rotation_timing": {
+            "distance": 1.042921,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.877172,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 3.577196,
+        "similarity_pct": 95.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.184016,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.143904,
+            "similarity_pct": 78.0
+          },
+          "rotation_timing": {
+            "distance": 0.947205,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.934735,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Amateur Youth",
+        "distance": 4.105919,
+        "similarity_pct": 94.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.454958,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.184597,
+            "similarity_pct": 75.7
+          },
+          "rotation_timing": {
+            "distance": 1.109143,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 1.01911,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 5.263128,
+        "similarity_pct": 70.9,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.904869,
+            "similarity_pct": 67.2
+          },
+          "lower_body": {
+            "distance": 1.634553,
+            "similarity_pct": 49.5
+          },
+          "rotation_timing": {
+            "distance": 1.352161,
+            "similarity_pct": 89.0
+          },
+          "posture": {
+            "distance": 1.206575,
+            "similarity_pct": 88.2
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 5.726985,
+        "similarity_pct": 50.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.184203,
+            "similarity_pct": 46.7
+          },
+          "lower_body": {
+            "distance": 1.311212,
+            "similarity_pct": 68.3
+          },
+          "rotation_timing": {
+            "distance": 1.513685,
+            "similarity_pct": 79.9
+          },
+          "posture": {
+            "distance": 2.088526,
+            "similarity_pct": 0.0
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 5.556196,
+        "similarity_pct": 36.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.358139,
+            "similarity_pct": 33.9
+          },
+          "lower_body": {
+            "distance": 2.304161,
+            "similarity_pct": 10.6
+          },
+          "rotation_timing": {
+            "distance": 1.857826,
+            "similarity_pct": 60.5
+          },
+          "posture": {
+            "distance": 1.627766,
+            "similarity_pct": 46.1
+          }
+        }
+      }
+    ],
+    "Amateur Youth": [
+      {
+        "pitcher": "Clayton Kershaw",
+        "distance": 3.693089,
+        "similarity_pct": 99.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.482824,
+            "similarity_pct": 98.2
+          },
+          "lower_body": {
+            "distance": 0.696022,
+            "similarity_pct": 100.0
+          },
+          "rotation_timing": {
+            "distance": 0.64535,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.707856,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Hunter Greene",
+        "distance": 3.484139,
+        "similarity_pct": 96.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.229067,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.067366,
+            "similarity_pct": 82.5
+          },
+          "rotation_timing": {
+            "distance": 0.781066,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.864674,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jordan Hicks",
+        "distance": 4.105919,
+        "similarity_pct": 94.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.454958,
+            "similarity_pct": 100.0
+          },
+          "lower_body": {
+            "distance": 1.184597,
+            "similarity_pct": 75.7
+          },
+          "rotation_timing": {
+            "distance": 1.109143,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 1.01911,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 4.235588,
+        "similarity_pct": 93.2,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.64293,
+            "similarity_pct": 86.4
+          },
+          "lower_body": {
+            "distance": 0.837702,
+            "similarity_pct": 95.8
+          },
+          "rotation_timing": {
+            "distance": 0.845029,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.947497,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 4.022064,
+        "similarity_pct": 93.1,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.54054,
+            "similarity_pct": 94.0
+          },
+          "lower_body": {
+            "distance": 1.11156,
+            "similarity_pct": 79.9
+          },
+          "rotation_timing": {
+            "distance": 1.005627,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.935347,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Chris Sale",
+        "distance": 4.15177,
+        "similarity_pct": 84.4,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.903459,
+            "similarity_pct": 67.3
+          },
+          "lower_body": {
+            "distance": 0.870357,
+            "similarity_pct": 93.9
+          },
+          "rotation_timing": {
+            "distance": 0.898995,
+            "similarity_pct": 100.0
+          },
+          "posture": {
+            "distance": 0.798468,
+            "similarity_pct": 100.0
+          }
+        }
+      },
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 4.905977,
+        "similarity_pct": 71.0,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.906121,
+            "similarity_pct": 67.1
+          },
+          "lower_body": {
+            "distance": 1.529615,
+            "similarity_pct": 55.6
+          },
+          "rotation_timing": {
+            "distance": 1.158188,
+            "similarity_pct": 99.9
+          },
+          "posture": {
+            "distance": 1.429187,
+            "similarity_pct": 65.9
+          }
+        }
+      },
+      {
+        "pitcher": "Tyler Glasnow",
+        "distance": 5.481986,
+        "similarity_pct": 63.3,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 2.881955,
+            "similarity_pct": 68.9
+          },
+          "lower_body": {
+            "distance": 1.873132,
+            "similarity_pct": 35.6
+          },
+          "rotation_timing": {
+            "distance": 1.66914,
+            "similarity_pct": 71.1
+          },
+          "posture": {
+            "distance": 1.325829,
+            "similarity_pct": 76.3
+          }
+        }
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 4.988556,
+        "similarity_pct": 60.9,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.190246,
+            "similarity_pct": 46.2
+          },
+          "lower_body": {
+            "distance": 1.254878,
+            "similarity_pct": 71.6
+          },
+          "rotation_timing": {
+            "distance": 1.274315,
+            "similarity_pct": 93.3
+          },
+          "posture": {
+            "distance": 1.633046,
+            "similarity_pct": 45.6
+          }
+        }
+      },
+      {
+        "pitcher": "Gerrit Cole",
+        "distance": 4.865526,
+        "similarity_pct": 57.8,
+        "degraded": false,
+        "components": {
+          "arm_action": {
+            "distance": 3.213355,
+            "similarity_pct": 44.5
+          },
+          "lower_body": {
+            "distance": 1.599343,
+            "similarity_pct": 51.5
+          },
+          "rotation_timing": {
+            "distance": 1.465507,
+            "similarity_pct": 82.6
+          },
+          "posture": {
+            "distance": 1.361252,
+            "similarity_pct": 72.7
+          }
+        }
+      }
+    ]
+  },
+  "computed_at": "2026-04-23T22:18:31",
+  "components": {
+    "arm_action": {
+      "features": [
+        "elbow_angle_throw",
+        "shoulder_abduction_throw",
+        "wrist_height_rel_hip"
+      ],
+      "weight": 5.5,
+      "distance_matrix": [
+        [
+          0.0,
+          2.232367,
+          2.669696,
+          2.890559,
+          3.818975,
+          3.154961,
+          1.808551,
+          3.007946,
+          2.525778,
+          3.184203,
+          3.190246
+        ],
+        [
+          2.232367,
+          0.0,
+          2.510428,
+          1.61788,
+          2.765168,
+          2.498866,
+          2.371713,
+          2.566486,
+          1.773141,
+          1.763838,
+          2.906121
+        ],
+        [
+          2.669696,
+          2.510428,
+          0.0,
+          1.756472,
+          2.985043,
+          2.785557,
+          2.715496,
+          2.943007,
+          1.748572,
+          1.636477,
+          2.64293
+        ],
+        [
+          2.890559,
+          1.61788,
+          1.756472,
+          0.0,
+          2.881927,
+          2.080204,
+          2.372095,
+          3.228236,
+          2.229176,
+          1.999672,
+          2.54054
+        ],
+        [
+          3.818975,
+          2.765168,
+          2.985043,
+          2.881927,
+          0.0,
+          2.922046,
+          3.259734,
+          2.942368,
+          3.059899,
+          3.358139,
+          3.213355
+        ],
+        [
+          3.154961,
+          2.498866,
+          2.785557,
+          2.080204,
+          2.922046,
+          0.0,
+          2.619495,
+          2.955055,
+          2.228884,
+          2.184016,
+          2.903459
+        ],
+        [
+          1.808551,
+          2.371713,
+          2.715496,
+          2.372095,
+          3.259734,
+          2.619495,
+          0.0,
+          3.426527,
+          2.485324,
+          2.527406,
+          2.482824
+        ],
+        [
+          3.007946,
+          2.566486,
+          2.943007,
+          3.228236,
+          2.942368,
+          2.955055,
+          3.426527,
+          0.0,
+          2.395291,
+          2.904869,
+          2.881955
+        ],
+        [
+          2.525778,
+          1.773141,
+          1.748572,
+          2.229176,
+          3.059899,
+          2.228884,
+          2.485324,
+          2.395291,
+          0.0,
+          2.180826,
+          2.229067
+        ],
+        [
+          3.184203,
+          1.763838,
+          1.636477,
+          1.999672,
+          3.358139,
+          2.184016,
+          2.527406,
+          2.904869,
+          2.180826,
+          0.0,
+          2.454958
+        ],
+        [
+          3.190246,
+          2.906121,
+          2.64293,
+          2.54054,
+          3.213355,
+          2.903459,
+          2.482824,
+          2.881955,
+          2.229067,
+          2.454958,
+          0.0
+        ]
+      ]
+    },
+    "lower_body": {
+      "features": [
+        "stride_knee_flexion",
+        "back_knee_flexion",
+        "stride_length_norm"
+      ],
+      "weight": 2.7,
+      "distance_matrix": [
+        [
+          0.0,
+          1.34526,
+          1.241295,
+          1.362333,
+          2.394176,
+          1.343159,
+          1.458772,
+          1.603319,
+          1.289605,
+          1.311212,
+          1.254878
+        ],
+        [
+          1.34526,
+          0.0,
+          0.899422,
+          0.682586,
+          1.278898,
+          1.241853,
+          0.746352,
+          1.813025,
+          0.847502,
+          0.726685,
+          1.529615
+        ],
+        [
+          1.241295,
+          0.899422,
+          0.0,
+          0.636181,
+          1.446236,
+          1.143314,
+          0.69184,
+          1.82154,
+          0.590279,
+          0.831627,
+          0.837702
+        ],
+        [
+          1.362333,
+          0.682586,
+          0.636181,
+          0.0,
+          1.29364,
+          1.064049,
+          0.828256,
+          1.907234,
+          0.81909,
+          1.001192,
+          1.11156
+        ],
+        [
+          2.394176,
+          1.278898,
+          1.446236,
+          1.29364,
+          0.0,
+          1.586498,
+          1.174773,
+          2.485618,
+          1.840722,
+          2.304161,
+          1.599343
+        ],
+        [
+          1.343159,
+          1.241853,
+          1.143314,
+          1.064049,
+          1.586498,
+          0.0,
+          1.707162,
+          1.936855,
+          0.979109,
+          1.143904,
+          0.870357
+        ],
+        [
+          1.458772,
+          0.746352,
+          0.69184,
+          0.828256,
+          1.174773,
+          1.707162,
+          0.0,
+          1.731659,
+          0.904494,
+          0.92288,
+          0.696022
+        ],
+        [
+          1.603319,
+          1.813025,
+          1.82154,
+          1.907234,
+          2.485618,
+          1.936855,
+          1.731659,
+          0.0,
+          1.668407,
+          1.634553,
+          1.873132
+        ],
+        [
+          1.289605,
+          0.847502,
+          0.590279,
+          0.81909,
+          1.840722,
+          0.979109,
+          0.904494,
+          1.668407,
+          0.0,
+          0.985448,
+          1.067366
+        ],
+        [
+          1.311212,
+          0.726685,
+          0.831627,
+          1.001192,
+          2.304161,
+          1.143904,
+          0.92288,
+          1.634553,
+          0.985448,
+          0.0,
+          1.184597
+        ],
+        [
+          1.254878,
+          1.529615,
+          0.837702,
+          1.11156,
+          1.599343,
+          0.870357,
+          0.696022,
+          1.873132,
+          1.067366,
+          1.184597,
+          0.0
+        ]
+      ]
+    },
+    "rotation_timing": {
+      "features": [
+        "hip_rotation_frame",
+        "shoulder_rotation_frame",
+        "hip_shoulder_separation"
+      ],
+      "weight": 2.5,
+      "distance_matrix": [
+        [
+          0.0,
+          1.579115,
+          1.602102,
+          1.615265,
+          2.933749,
+          0.887678,
+          1.099453,
+          1.39591,
+          1.710192,
+          1.513685,
+          1.274315
+        ],
+        [
+          1.579115,
+          0.0,
+          1.075101,
+          0.846563,
+          1.617411,
+          0.905444,
+          0.745303,
+          1.631726,
+          0.918812,
+          0.956845,
+          1.158188
+        ],
+        [
+          1.602102,
+          1.075101,
+          0.0,
+          0.817984,
+          1.453805,
+          1.147651,
+          0.822742,
+          1.630677,
+          0.644514,
+          0.726881,
+          0.845029
+        ],
+        [
+          1.615265,
+          0.846563,
+          0.817984,
+          0.0,
+          1.376075,
+          0.872982,
+          0.939418,
+          1.738325,
+          1.134891,
+          0.88998,
+          1.005627
+        ],
+        [
+          2.933749,
+          1.617411,
+          1.453805,
+          1.376075,
+          0.0,
+          1.478293,
+          1.27178,
+          1.462034,
+          1.779149,
+          1.857826,
+          1.465507
+        ],
+        [
+          0.887678,
+          0.905444,
+          1.147651,
+          0.872982,
+          1.478293,
+          0.0,
+          1.124935,
+          1.428535,
+          0.907431,
+          0.947205,
+          0.898995
+        ],
+        [
+          1.099453,
+          0.745303,
+          0.822742,
+          0.939418,
+          1.27178,
+          1.124935,
+          0.0,
+          1.541447,
+          0.79623,
+          1.042921,
+          0.64535
+        ],
+        [
+          1.39591,
+          1.631726,
+          1.630677,
+          1.738325,
+          1.462034,
+          1.428535,
+          1.541447,
+          0.0,
+          1.658719,
+          1.352161,
+          1.66914
+        ],
+        [
+          1.710192,
+          0.918812,
+          0.644514,
+          1.134891,
+          1.779149,
+          0.907431,
+          0.79623,
+          1.658719,
+          0.0,
+          0.825183,
+          0.781066
+        ],
+        [
+          1.513685,
+          0.956845,
+          0.726881,
+          0.88998,
+          1.857826,
+          0.947205,
+          1.042921,
+          1.352161,
+          0.825183,
+          0.0,
+          1.109143
+        ],
+        [
+          1.274315,
+          1.158188,
+          0.845029,
+          1.005627,
+          1.465507,
+          0.898995,
+          0.64535,
+          1.66914,
+          0.781066,
+          1.109143,
+          0.0
+        ]
+      ]
+    },
+    "posture": {
+      "features": [
+        "trunk_tilt_lateral",
+        "elbow_angle_glove"
+      ],
+      "weight": 1.9,
+      "distance_matrix": [
+        [
+          0.0,
+          1.371678,
+          1.64342,
+          1.234389,
+          1.627737,
+          1.61944,
+          1.596238,
+          1.49763,
+          1.879594,
+          2.088526,
+          1.633046
+        ],
+        [
+          1.371678,
+          0.0,
+          0.988832,
+          0.56799,
+          1.22769,
+          1.021386,
+          0.606336,
+          1.377402,
+          0.808377,
+          0.999905,
+          1.429187
+        ],
+        [
+          1.64342,
+          0.988832,
+          0.0,
+          0.62455,
+          1.230379,
+          0.96558,
+          0.872708,
+          1.297936,
+          0.616897,
+          0.712123,
+          0.947497
+        ],
+        [
+          1.234389,
+          0.56799,
+          0.62455,
+          0.0,
+          1.308891,
+          0.814137,
+          0.650347,
+          1.506943,
+          0.717781,
+          0.770966,
+          0.935347
+        ],
+        [
+          1.627737,
+          1.22769,
+          1.230379,
+          1.308891,
+          0.0,
+          1.411,
+          1.09011,
+          1.396884,
+          1.358644,
+          1.627766,
+          1.361252
+        ],
+        [
+          1.61944,
+          1.021386,
+          0.96558,
+          0.814137,
+          1.411,
+          0.0,
+          0.653085,
+          1.416662,
+          0.836092,
+          0.934735,
+          0.798468
+        ],
+        [
+          1.596238,
+          0.606336,
+          0.872708,
+          0.650347,
+          1.09011,
+          0.653085,
+          0.0,
+          1.329596,
+          0.682001,
+          0.877172,
+          0.707856
+        ],
+        [
+          1.49763,
+          1.377402,
+          1.297936,
+          1.506943,
+          1.396884,
+          1.416662,
+          1.329596,
+          0.0,
+          0.981331,
+          1.206575,
+          1.325829
+        ],
+        [
+          1.879594,
+          0.808377,
+          0.616897,
+          0.717781,
+          1.358644,
+          0.836092,
+          0.682001,
+          0.981331,
+          0.0,
+          0.950087,
+          0.864674
+        ],
+        [
+          2.088526,
+          0.999905,
+          0.712123,
+          0.770966,
+          1.627766,
+          0.934735,
+          0.877172,
+          1.206575,
+          0.950087,
+          0.0,
+          1.01911
+        ],
+        [
+          1.633046,
+          1.429187,
+          0.947497,
+          0.935347,
+          1.361252,
+          0.798468,
+          0.707856,
+          1.325829,
+          0.864674,
+          1.01911,
+          0.0
+        ]
+      ]
+    }
+  },
+  "feature_weights": {
+    "elbow_angle_throw": 1.5,
+    "elbow_angle_glove": 0.7,
+    "shoulder_abduction_throw": 2.0,
+    "hip_rotation_frame": 0.0,
+    "shoulder_rotation_frame": 0.0,
+    "hip_shoulder_separation": 2.5,
+    "stride_knee_flexion": 0.8,
+    "back_knee_flexion": 0.4,
+    "trunk_tilt_lateral": 1.2,
+    "wrist_height_rel_hip": 2.0,
+    "stride_length_norm": 1.5
+  },
+  "velocity_weight_factor": 0.5,
+  "degraded_pitchers": [],
+  "overall_scoring": "weighted mean of component similarity %'s; weights = sum of FEATURE_WEIGHTS within each group"
+}

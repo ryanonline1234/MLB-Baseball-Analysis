@@ -1,0 +1,117 @@
+{
+  "pitchers": [
+    "Shohei Ohtani",
+    "Jacob deGrom",
+    "Logan Webb",
+    "Paul Skenes"
+  ],
+  "handedness": {
+    "Shohei Ohtani": "L",
+    "Jacob deGrom": "R",
+    "Logan Webb": "R",
+    "Paul Skenes": "R"
+  },
+  "sequence_length": {
+    "Shohei Ohtani": 957,
+    "Jacob deGrom": 711,
+    "Logan Webb": 893,
+    "Paul Skenes": 968
+  },
+  "distance_matrix": [
+    [
+      0.0,
+      2.383911,
+      2.492715,
+      2.100251
+    ],
+    [
+      2.383911,
+      0.0,
+      1.197795,
+      1.346052
+    ],
+    [
+      2.492715,
+      1.197795,
+      0.0,
+      1.36914
+    ],
+    [
+      2.100251,
+      1.346052,
+      1.36914,
+      0.0
+    ]
+  ],
+  "rankings": {
+    "Shohei Ohtani": [
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 2.100251,
+        "similarity_pct": 30.3
+      },
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 2.383911,
+        "similarity_pct": 8.4
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 2.492715,
+        "similarity_pct": 0.0
+      }
+    ],
+    "Jacob deGrom": [
+      {
+        "pitcher": "Logan Webb",
+        "distance": 1.197795,
+        "similarity_pct": 100.0
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 1.346052,
+        "similarity_pct": 88.6
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 2.383911,
+        "similarity_pct": 8.4
+      }
+    ],
+    "Logan Webb": [
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 1.197795,
+        "similarity_pct": 100.0
+      },
+      {
+        "pitcher": "Paul Skenes",
+        "distance": 1.36914,
+        "similarity_pct": 86.8
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 2.492715,
+        "similarity_pct": 0.0
+      }
+    ],
+    "Paul Skenes": [
+      {
+        "pitcher": "Jacob deGrom",
+        "distance": 1.346052,
+        "similarity_pct": 88.6
+      },
+      {
+        "pitcher": "Logan Webb",
+        "distance": 1.36914,
+        "similarity_pct": 86.8
+      },
+      {
+        "pitcher": "Shohei Ohtani",
+        "distance": 2.100251,
+        "similarity_pct": 30.3
+      }
+    ]
+  },
+  "computed_at": "2026-04-21T16:03:26"
+}

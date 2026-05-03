@@ -1,0 +1,48 @@
+{
+  "pitcher_name": "Chris Sale",
+  "savant_id": 519242,
+  "total_pitches": 3062,
+  "pitch_stats": {
+    "CH": {
+      "count": 240,
+      "avg_velocity": 86.7604,
+      "avg_spin_rate": 1827.1167,
+      "avg_extension": 6.6275,
+      "release_pos_x": 3.1335,
+      "release_pos_z": 4.6119,
+      "horizontal_break": 16.34,
+      "vertical_break": -0.33
+    },
+    "FF": {
+      "count": 1134,
+      "avg_velocity": 94.8526,
+      "avg_spin_rate": 2270.2416,
+      "avg_extension": 6.6884,
+      "release_pos_x": 3.0787,
+      "release_pos_z": 4.9655,
+      "horizontal_break": 14.97,
+      "vertical_break": 9.4
+    },
+    "SI": {
+      "count": 141,
+      "avg_velocity": 93.8887,
+      "avg_spin_rate": 2135.2199,
+      "avg_extension": 6.6638,
+      "release_pos_x": 3.0994,
+      "release_pos_z": 4.7828,
+      "horizontal_break": 18.43,
+      "vertical_break": 2.31
+    },
+    "SL": {
+      "count": 1272,
+      "avg_velocity": 78.8138,
+      "avg_spin_rate": 2372.9354,
+      "avg_extension": 6.4138,
+      "release_pos_x": 3.0849,
+      "release_pos_z": 4.8415,
+      "horizontal_break": -10.9,
+      "vertical_break": -3.26
+    }
+  },
+  "fetched_at": "2026-04-22T13:54:19.276585"
+}
